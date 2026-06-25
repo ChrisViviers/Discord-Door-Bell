@@ -32,6 +32,31 @@ We also stock a wide selection of [buttons](https://www.pishop.co.za/store/butto
 * **Firmware/Language:** MicroPython 1.20+
 * **External Integration:** Discord Developer Portal Bot Gateway
 
+### How to Run
+
+#### 1. Hardware Connection
+Wire up your momentary switch using the Pico W's internal pull-up network to keep your setup free of external resistors.
+
+* Connect one leg of your tactile button to **GP15** (Physical Pin 20).
+* Connect the opposite leg of your button to a nearby **GND** pin (Physical Pin 18 or Pin 23).
+
+#### 2. Verify Your Wiring
+Before setting up the web connection, run the local isolation tool to ensure clean physical assembly:
+* Open `hardware_tester.py` inside Thonny and run it. Pressing the button should cleanly print to your terminal and toggle the onboard green LED.
+
+#### 3. Deployment
+* Open `main.py` in Thonny, load your configuration keys, and select **File > Save As...**
+* Choose **Raspberry Pi Pico** and name the file exactly `main.py` so it initializes automatically on boot.
+* Unplug from your computer and deploy using any 5V USB power bank or mains block!
+
+---
+
+### Contact:
+* [support@pishop.africa](mailto:support@pishop.africa)
+
+### Disclaimer:
+* This code example is intended for educational and prototyping purposes only. It is not intended to be used directly in critical production environments without independent data encryption reviews.
+
 ### System Architecture
 
 ```mermaid
@@ -48,3 +73,7 @@ sequenceDiagram
             Discord API-->>Pico W: Respond Status Code (e.g. 200 OK)
         end
     end
+
+
+
+
