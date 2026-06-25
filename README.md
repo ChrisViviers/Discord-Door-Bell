@@ -18,7 +18,6 @@ We also stock a wide selection of [buttons](https://www.pishop.co.za/store/butto
 * [Features](#features)
 * [Tech Stack](#tech-stack)
 * [System Architecture](#system-architecture)
-* [Network & API Configuration](#network--api-configuration)
 * [How to Run](#how-to-run)
 * [Contact](#contact)
 * [Disclaimer](#disclaimer)
