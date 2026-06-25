@@ -1,4 +1,4 @@
-# Raspberry Pi Pico W IoT Discord Notification Button
+# Discord Door Bell
 
 This kit and codebase is ideal for makers and remote workers looking to build a dedicated hardware shortcut for digital alerts. By pairing a physical tactile switch with the Raspberry Pi Pico W, this project bypasses bulky desktop software dependencies to trigger instant messages directly into your personal Discord channel using automated bot endpoints.
 
